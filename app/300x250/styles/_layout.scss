@@ -1,0 +1,101 @@
+body {
+    background: #fafafa;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #555;
+}
+
+.default {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#border {
+      display: block;
+      width: $banner-width;
+      height: $banner-height;
+      pointer-events: none;
+      outline: solid 1px #000;
+      outline-offset: -1px;
+      z-index: 999;
+  }
+
+#banner {
+	background: #bdb991;
+    overflow: hidden;
+    width: $banner-width;
+    height: $banner-height;
+    opacity: 0;
+
+    .text {
+        position: absolute;
+        top: 0;
+        left: 300px;
+        width: $banner-width;
+        height: $banner-height;
+        transform: translate3d(0, 0, 0.1px);
+        display:none;
+    }
+
+    
+
+    
+
+
+    #logo1 {
+        position: absolute;
+        top: 12px;
+        right: 10px;
+        // transform: translate3d(0, 0, 0.1px);
+        width: 102px;
+        // height: 38.36px;
+        // 153.62 38.36
+        // clip: rect(0px, 300px, 300px, 0px);
+    }
+
+    #logo2 {
+        position: absolute;
+        bottom: 12px;
+        right: 10px;
+        width: 28px;
+    }
+
+    #img {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        transform: translate3d(0, 0, 0.1px);
+    }
+
+   #cta {
+        position: absolute;
+        bottom: 12px;
+        left: 10px;
+        opacity:0;
+        width: 133px;
+        height: 27px;
+        background: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+
+        #cta_txt {
+        position: absolute;
+        top: -3px;
+        left: 0;
+        width: 132px;
+        height: 34px;
+        
+    }
+    }
+
+    #button-exit {
+        background-color: rgba(255, 255, 255, 0);
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+    }
+
+    
+
+
+}
