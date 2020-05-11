@@ -10,7 +10,7 @@ body {
 	left: 0;
 }
 
-#border {
+ #border {
       display: block;
       width: $banner-width;
       height: $banner-height;
@@ -37,57 +37,38 @@ body {
         display: none;
     }
 
-    #txtContainer {
-        width: $banner-width;
-        height: $banner-height;
-        // pointer-events: none;
-        clip: rect(0px, 728px, 90px, 180px);
-    }
-
-    #logo1 {
-        position: absolute;
-        top: 32px;
-        left: 20px;
-        width: 103px;
-    }
-
     #logo2 {
         position: absolute;
-        bottom: 5px;
-        right: 5px;
-        // transform: translate3d(0, 0, 0.1px);
-        width: 22px;
-        // height: 58.85px;
-        // 49.44 58.85
-        // clip: rect(300px, 300px, 600px, 0px);
+        bottom: 6px;
+        right: 13px;
+        width: 18px;
     }
 
     #img {
         position: absolute;
-        top: 0;
-        left: 728px;
+        bottom: 0;
+        right: 0;
         transform: translate3d(0, 0, 0.1px);
     }
 
     #cta {
         position: absolute;
-        bottom: 30px;
-        right: 42px;
+        bottom: 32px;
+        right: 13px;
         opacity:0;
-        width: 133px;
-        height: 27px;
-        background: #fff;
+        width: 81px;
+        height: 24px;
+        background: #e6e7e8;
         border-radius: 5px;
         overflow: hidden;
 
         #cta_txt {
-        position: absolute;
-        top: -3px;
-        left: 0;
-        width: 132px;
-        height: 34px;
-        
-    }
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 81px;
+            height: 24px;
+        }
     }
 
     #button-exit {
@@ -96,4 +77,8 @@ body {
         height: 100%;
         width: 100%;
     }
+
+   
+
+
 }
